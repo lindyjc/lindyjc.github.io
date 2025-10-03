@@ -19,19 +19,11 @@ Research experience
   * University of Wisconsin-Madison, [Robot Teaching and Teaming Lab](https://wisc-rt2.github.io/)
 
 * Summer 2025: Undergraduate Research Intern
-  * Boise State University Cloud Computing Security & Privacy Research Experience for Undergraduates (REU)
+  * Boise State University, Cloud Computing Security & Privacy Research Experience for Undergraduates (REU)
   * see our project presentation [here!](https://scholarworks.boisestate.edu/icur/2025/poster_session/85/)
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -41,9 +33,9 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+Teaching 
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
