@@ -1,8 +1,8 @@
 ---
 title: "A Novel Approach to Extended Reality EULA Presentation for Improved Child Safety"
-collection: research
+collection: publication
 category: manuscripts
-permalink: /research/2025-07-XR-EULA-Presentation.md
+permalink: /publication/2025-07-XR-EULA-Presentation.md
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-07
 venue: 'Journal 1'
