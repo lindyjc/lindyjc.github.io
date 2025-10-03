@@ -11,6 +11,8 @@ redirect_from:
 
 I am in my final year of my B.S. in Computer Sciences at the University of Wisconsin-Madison. I am part of the [Robot Teaching and Teaming Laboratory](https://wisc-rt2.github.io/).
 
+
+
  <!-- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
