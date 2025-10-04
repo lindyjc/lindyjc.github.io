@@ -15,11 +15,10 @@ Education
 
 Research experience
 ======
-* Fall 2025: Undergraduate Research Assistant
-  * University of Wisconsin-Madison, [Robot Teaching and Teaming Lab](https://wisc-rt2.github.io/)
+* [Robot Teaching and Teaming Lab](https://wisc-rt2.github.io/), Undergraduate Researcher
+  * 
 
-* Summer 2025: Undergraduate Research Intern
-  * Boise State University, Cloud Computing Security & Privacy Research Experience for Undergraduates (REU)
+* Cloud Computing Security & Privacy REU @ Boise State University, Research Intern
   * see our project presentation [here!](https://scholarworks.boisestate.edu/icur/2025/poster_session/85/)
 
 
@@ -35,8 +34,8 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul> -->
   
-Teaching 
+<!-- Teaching 
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
