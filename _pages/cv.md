@@ -16,7 +16,7 @@ Education
 Research experience
 ======
 * [Robot Teaching and Teaming Lab](https://wisc-rt2.github.io/), Undergraduate Researcher
-  * 
+  * Developing prototype of a tool for a physical robot assistant that will provide selective assistance for precision or force tasks.
 
 * Cloud Computing Security & Privacy REU @ Boise State University, Research Intern
   * see our project presentation [here!](https://scholarworks.boisestate.edu/icur/2025/poster_session/85/)
