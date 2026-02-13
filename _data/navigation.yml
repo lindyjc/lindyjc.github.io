@@ -28,9 +28,13 @@ main:
     
   - title: "cv"
     url: https://lindyjc.github.io/files/lindy_chen_cv.pdf
+    # url: 
+    # url: "<a href='https://lindyjc.github.io/files/lindy_chen_cv.pdf' target='_blank' rel='noopener noreferrer'>cv</a>"
+
 
   - title: "my art, for fun"
     url: /art/
+
     
   # - title: "Guide"
   #   url: /markdown/
