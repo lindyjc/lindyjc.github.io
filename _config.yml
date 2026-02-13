@@ -23,8 +23,8 @@ repository               : "lindyjc/lindyjc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_pic2.jpg"
-  name             : "Lindy Chen"
+  avatar           : "profile_pic2.jpeg"
+  name             : "lindy"
   pronouns         : "she/her"  
   bio              : "CS undergrad @ UW-Madison"
   location         : "Madison, WI"
@@ -232,6 +232,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  art:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -287,6 +290,14 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+      share: true
+  # _art
+  - scope:
+      path: ""
+      type: art
+    values:
+      layout: single
       author_profile: true
       share: true
 

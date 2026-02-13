@@ -1,7 +1,5 @@
 ---
-title: "I like digital art! (and I despise AI art)"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/art/ljchen2_greatest_hits.PNG'>"
-collection: portfolio
+title: "some of my best work"
+image: "/images/art/ljchen2_greatest_hits.PNG"
+caption: "procreate, 2025"
 ---
-
-Some of my favorites

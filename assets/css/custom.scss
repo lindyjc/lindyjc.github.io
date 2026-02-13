@@ -1,0 +1,71 @@
+/* gallery styles */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.gallery-item {
+  flex: 0 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  height: 250px;
+  width: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item {
+  position: relative;   /* needed for overlay */
+}
+
+
+.gallery-item:hover img {
+  // opacity: 0.65;
+  transform: scale(1.03); /* subtle zoom */
+}
+
+/* Dark overlay layer */
+.gallery-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* darkness level */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* fade in dark layer */
+.gallery-item:hover::after {
+  opacity: 1;
+}
+
+/* hover-over text */
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+// .page-content {
+//   // padding: 20px 20px; // top/bottom 40px, left/right 20px
+//   // max-width: 1200px;  // optional, to center content
+//   // margin: 0 auto;     // center horizontally
+// }

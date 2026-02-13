@@ -8,8 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Research"
-    url: /research/
+  # - title: "Research"
+  #   url: /research/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -17,8 +17,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "portfolio"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
@@ -26,8 +26,11 @@ main:
   # - title: "CV"
   #   url: /cv/
     
-  - title: "CV"
-    url: /cv-json/
+  - title: "cv"
+    url: https://lindyjc.github.io/files/lindy_chen_cv.pdf
+
+  - title: "my art, for fun"
+    url: /art/
     
   # - title: "Guide"
   #   url: /markdown/
