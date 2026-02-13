@@ -10,7 +10,7 @@ classes: wide
     {% assign art_images = site.static_files | where_exp:"f","f.path contains '/art/'" %}
     {% for image in art_images %}
       <div class="gallery-item">
-        <img src="{{ image.path | relative_url }}" alt="{{ image.name + ", " + page.description}}">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name | append: ", " | append: page.description }}">
         <div class="overlay">{{ image.name | remove: '.jpg' | remove: '.png' | remove: '.jpeg' | remove: '.PNG'}}</div>
       </div>
     {% endfor %}
